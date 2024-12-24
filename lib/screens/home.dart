@@ -49,7 +49,9 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: FloatingActionButton.extended(
         label: Text("Add Visit"),
         icon: Icon(Icons.add),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushNamed(context, '/addvisit');
+        },
       )
     );
   }

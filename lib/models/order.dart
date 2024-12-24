@@ -7,6 +7,15 @@ class VisitOrder {
 
   VisitOrder({required this.dish, required this.rating, this.review_text});
 
+  Map toMap() {
+    Map<String, dynamic> res = {};
+    res["dish"] = dish.toMap();
+    res["rating"] = rating;
+    res["review_text"] = review_text;
+
+    return res;
+  }
+
   String displayText() {
     String text = "{";
     text += "   dish: ${dish.displayText()}\n";

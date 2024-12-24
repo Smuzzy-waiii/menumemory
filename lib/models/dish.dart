@@ -7,6 +7,14 @@ class Dish {
     required this.name
   });
 
+  Map toMap() {
+    Map<String, dynamic> res = {};
+    res["id"] = id;
+    res["name"] = name;
+
+    return res;
+  }
+
   String displayText() {
     String text = "{";
     text += "   id: $id\n";
@@ -14,7 +22,6 @@ class Dish {
     text += "}";
     return text;
   }
-
 
   static Dish fromJson(Map<String, dynamic> snapshotData) {
     return Dish(id: snapshotData["id"], name: snapshotData["name"]);

@@ -17,15 +17,19 @@ class Restaurant {
     this.mapsRatingOutOf5
   });
 
-  String displayText() {
+  Map toMap() {
     Map<String, dynamic> res = {};
     res["id"] = this.id;
     res["name"] = this.name;
     res["area"] = this.area;
     res["address"] = this.address;
-    res["mapsLink"] = this.mapsLink;
-    res["mapsRatingOutOf5"] = this.mapsRatingOutOf5;
+    res["mapsLink"] = this.mapsLink ?? "";
+    res["mapsRatingOutOf5"] = this.mapsRatingOutOf5 ?? "";
 
+    return res;
+  }
+
+  String displayText() {
     String text = "{";
     text += "   id: $id\n";
     text += "   name: $name\n";
