@@ -4,9 +4,9 @@ Menumemory is an app for jotting down your dining experiences at restaurants. It
 
 Here is a link to the intended frontend UI design:  https://www.figma.com/design/soNxFzBVn5t5vZrbkTjCnu/Restaurant-Visit-Tracker?node-id=0-1&t=nMHPID03iy7o1oJM-1
 
-**Note:** If you are a contributor, please read [CONTRIBUTING.md](https://github.com/acmpesuecc/menumemory/blob/main/CONTRIBUTING.md). **YOU WILL NOT UNDERSTAND THE PROJECT OTHERWISE, PLEASE ACTUALLY FUCKING READ IT**
+**Note:** If you are a contributor, please read [CONTRIBUTING.md](https://github.com/acmpesuecc/menumemory/blob/main/CONTRIBUTING.md). **YOU WILL NOT UNDERSTAND THE PROJECT OTHERWISE, PLEASE READ IT**
 
-**Please contact me at +91 8618950413 for any help/queries/assistance**
+**Please contact me at smaran.jawalkar@gmail.com for any help/queries/assistance**
 
 ## Screenshots
 <img width="427" alt="image" src="https://github.com/user-attachments/assets/9d3b5a55-9c71-461d-a87e-857d4bc9b9a7">
